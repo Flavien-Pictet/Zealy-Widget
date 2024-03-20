@@ -45,7 +45,9 @@ Include the WidgetToggle component in the render method of your React component:
 ## Files and code
 
 WidgetToggle.js: This file contains the React component code for WidgetToggle.
+
 WidgetToggle.css: This file contains the styles for the WidgetToggle component.
+
 logo-button.png: The image used for the Widget button
 
 Feel free to customize the iframe by modifying the WidgetToggle component's props and CSS.
