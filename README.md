@@ -1,71 +1,51 @@
-# Getting Started with Create React App
+# WidgetToggle React Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WidgetToggle is a React component that allows you to easily integrate a toggleable iframe widget into your React application. This widget is perfect for embedding interactive elements such as chat windows, feedback forms, or information panels.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before you begin, ensure you have the following installed:
+- Node.js (v12.0.0 or above)
+- npm (v6.0.0 or above)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repository to your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/Flavien-Pictet/ZealyWidget.git
+```
 
-### `npm test`
+## Usage
+To use the WidgetToggle component in your application, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Step 1: Import the Component
+In your React component where you want the widget to appear, import the WidgetToggle component:
 
-### `npm run build`
+```javascript
+// Import WidgetToggle component
+import WidgetToggle from './path-to-WidgetToggle/WidgetToggle';
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Step 2: Add the Component to Your Render Method
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Include the WidgetToggle component in the render method of your React component:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```javascript
+    function App() {
+      return (
+        <div>
+          {/* Other components */}
+          <WidgetToggle />
+        </div>
+      );
+    }
+```
 
-### `npm run eject`
+## Files and code
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+WidgetToggle.js: This file contains the React component code for WidgetToggle.
+WidgetToggle.css: This file contains the styles for the WidgetToggle component.
+logo-button.png: The image used for the Widget button
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# ZealyWidget
+Feel free to customize the iframe by modifying the WidgetToggle component's props and CSS.
