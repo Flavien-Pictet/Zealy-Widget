@@ -1,6 +1,6 @@
 # WidgetToggle React Component
 
-WidgetToggle is a React component that allows you to easily integrate a toggleable iframe widget into your React application. This widget is perfect for embedding interactive elements such as chat windows, feedback forms, or information panels.
+WidgetToggle is a React component that allows you to easily integrate a toggleable iframe widget into your React application.By incorporating Zealy, you're not only making your site more dynamic, you’re also unlocking a host of benefits that can supercharge your business.
 
 ## Prerequisites
 
