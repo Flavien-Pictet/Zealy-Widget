@@ -1,0 +1,39 @@
+.widget-container {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s linear, visibility 0s linear 0.2s;
+}
+
+.widget-container.visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s linear;
+}
+
+iframe {
+  border-radius: 16px;
+  border: none;
+  height: 500px;
+  transition: transform 0.3s ease;
+}
+
+.toggle-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background-image: url('/public/logo-button.png');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+  background-color: transparent;
+}
+
+.toggle-button:hover {
+  transform: scale(1.1);
+}
