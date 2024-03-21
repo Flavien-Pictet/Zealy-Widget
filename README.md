@@ -23,7 +23,6 @@ To use the WidgetToggle component in your application, follow these steps:
 In your React component where you want the widget to appear, import the WidgetToggle component:
 
 ```javascript
-// Import WidgetToggle component
 import WidgetToggle from './path-to-WidgetToggle/WidgetToggle';
 ```
 
